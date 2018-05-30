@@ -1,0 +1,21 @@
+{
+    "name": "tianwangchong/hello-world",
+    "description": "a test composer project",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tiandaye",
+            "email": "q408596288@vip.qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "TianWangChong\\HelloWorld\\": "src/"
+        }
+    }
+}
